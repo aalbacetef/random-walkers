@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "Arturo Albacete",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.6",
+    "jasmine": "^3.0.0"
+  }
 }

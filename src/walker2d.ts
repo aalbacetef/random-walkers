@@ -164,7 +164,6 @@ export class Walker2D {
         if( cnt >= safeguard) { throw new Error('infinite loop detected'); }
       }
     } catch(err) {
-      console.log('ending');
       this.end();
       return false;
     }
